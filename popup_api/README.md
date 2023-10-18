@@ -3,8 +3,17 @@ Este projeto tem como objetivo aprimorar o monitoramento realizado com a ferrame
 Através da sua API, o projeto recupera os hosts existentes que têm problemas e gera uma janela de notificação com:
 
 Nome do host
+
 Nome do problema
+
 Horário do problema
+
+
+<p align="center">
+  <img src="https://github.com/Alexsander-Prates/Pop-up-Zabbix/assets/81244205/cc5f37c8-d674-4788-8131-960fa3d524bc" alt="Captura de tela">
+</p>
+
+
 
 Sim, a ferramenta Zabbix já oferece funcionalidades semelhantes, no entanto, são relativamente limitadas em relação à monitoria de redes.
 
