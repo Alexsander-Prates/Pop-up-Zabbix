@@ -1,5 +1,3 @@
-Claro, aqui está o texto corrigido:
-
 Este projeto tem como objetivo aprimorar o monitoramento realizado com a ferramenta Zabbix.
 
 Através da sua API, o projeto recupera os hosts existentes que têm problemas e gera uma janela de notificação com:
