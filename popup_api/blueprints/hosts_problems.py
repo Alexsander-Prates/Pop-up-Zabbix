@@ -6,11 +6,11 @@ diretorio_projeto = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."
 
 sys.path.append(diretorio_projeto)
 
-from popup_api.ext.login_user import get_token
+from popup_api.ext.login_user import get_token, get_urlZabbix
 
 def make_api_request():
 
-    api_url = 'http://192.168.0.248/zabbix/api_jsonrpc.php'
+    api_url = get_urlZabbix()
     api_method = 'host.get'
     api_params = {
         "output": ["name"],
